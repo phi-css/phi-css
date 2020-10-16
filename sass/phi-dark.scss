@@ -1,0 +1,26 @@
+@import 'variables';
+
+.dark {
+  filter: invert(100%);
+}
+
+.dark {
+  img, svg, canvas {
+    /*
+      to retain the colors of teh image and make them slight grayish 
+      so that its brightness can be adsjusted to the dark background
+    */
+    filter: invert(100%) grayscale(20%);
+  }
+}
+
+.dark {
+  .button, .button.button-primary, button, input[type="button"], input[type="reset"], input[type="submit"] {
+    color: $light;
+    &:hover {
+      background-color: $light;
+      color: $accent;
+      border-color: $light;
+    }
+  }
+}

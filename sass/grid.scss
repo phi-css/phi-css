@@ -1,0 +1,78 @@
+@import 'variables';
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  max-width: 960px;
+  padding: 0 1rem;
+}
+
+.row {
+  width: 100%;
+  position: relative;
+  margin: $remDivPhi auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  .phi-col-base {
+    width: $base;
+  }
+
+  .phi-col-xl {
+    width: $base - $phi6 + $phi6;
+  }
+
+  .phi-col-10, .phi-col-lg {
+    width: $phi10;
+  }
+
+  .phi-col-9, .phi-col-md {
+    width: $phi9;
+  }
+
+  .phi-col-8, .phi-col-sm {
+    width: $phi8;
+  }
+
+  .phi-col-7 {
+    width: $phi7;
+  }
+  
+  .phi-col-6 {
+    width: $phi6;
+  }
+
+  .phi-col-5 {
+    width: $phi5;
+  }
+
+  .phi-col-4 {
+    width: $phi4;
+  }
+
+  .phi-col-3 {
+    width: $phi3;
+  }
+
+  .phi-col-2 {
+    width: $phi2;
+  }
+
+  .phi-col-1 {
+    width: $phi1;
+  }
+}
+
+// for mobile screens with max width of 765px will have col lengths set to 100%
+@media only screen and (max-width: 765px) {
+  .container {
+    max-width: 720px;
+  }
+
+  div[class^="phi-col"]{
+    width: 100% !important;
+  }
+}
