@@ -2,16 +2,14 @@ div[class*="flex"] {
   display: flex;
 }
 
-.flex-row,
-.flex {
-  flex-direction: row;
-}
 .flex-column {
   flex-direction: column;
 }
+
 .flex-row-reverse {
   flex-direction: row-reverse;
 }
+
 .flex-column-reverse {
   flex-direction: column-reverse;
 }
@@ -19,18 +17,23 @@ div[class*="flex"] {
 .justify-start {
   justify-content: flex-start;
 }
+
 .justify-end {
   justify-content: flex-end;
 }
+
 .justify-center {
   justify-content: center;
 }
+
 .justify-space-evenly {
   justify-content: space-evenly;
 }
+
 .justify-space-around {
   justify-content: space-around;
 }
+
 .justify-space-between {
   justify-content: space-between;
 }

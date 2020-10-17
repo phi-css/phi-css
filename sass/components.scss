@@ -20,6 +20,7 @@ a {
   letter-spacing: 1px * $phi;
   text-align: center;
   white-space: nowrap;
+
   &:hover {
     transition: $transition;  
     cursor: pointer;
@@ -32,6 +33,7 @@ a {
 .button.button-secondary {
   background: transparent;
   color: $accent;
+
   &:hover {
     background-color: $light;
   }
@@ -47,6 +49,7 @@ a {
   background: gainsboro;
   border-color: gainsboro;
   color: #ffffff;
+
   &:hover {
     cursor: not-allowed;
     color: #ffffff
@@ -56,44 +59,33 @@ a {
 .table {
   border-spacing: 0;
   width: 100%;
-}
 
-th {
-  background-color: $accent;
-  color: $light;
-  font-weight: 600;
-}
+  th {
+    background-color: $accent;
+    color: $light;
+    font-weight: 600;
+  }
 
-td, th {
-  padding: 1rem $remMulPhi;
-  text-align: left;
-  border-bottom: 0.05rem solid #e1e1e1; // needs to be changed
+  td, th {
+    padding: 1rem $remMulPhi;
+    text-align: left;
+    border-bottom: 0.05rem solid #e1e1e1; // needs to be changed
+  }
 }
 
 // form components
 form {
   width: 100%;
 }
-fieldset {
-  margin-bottom: $remMulPhi;
-  border: none;
-  padding: 0;
-}
+
 label {
   display: block;
   width: 100%;
   font-size: 1rem;
   font-weight: 300;
 }
-input[type="email"],
-input[type="number"],
-input[type="password"],
-input[type="search"],
-input[type="tel"],
-input[type="text"],
-input[type="url"],
-textarea,
-select {
+
+input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], textarea, select {
   margin-bottom: $remMulPhi;
   width: 100%;
   border: 0.05rem solid gray; // needs to be changed
@@ -104,6 +96,7 @@ select {
 .checkbox-input, .radio-input {
   display: flex;
   align-items: center;
+  
   & > label {
     padding-left: $remDivPhi;
   }

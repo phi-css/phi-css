@@ -98,7 +98,7 @@ code, kbd, pre {
   margin-left: 0;
 }
 
-p{
+p {
   > code, > kbd {
     margin: 0 $remDivPhi;
   }
@@ -122,17 +122,13 @@ kbd, pre {
   border: 1px solid gainsboro; // needs to be changed
 }
 
-em {
-  font-style: italic;
-}
-
-kbd,
-code {
+kbd, code {
   padding: 0.2rem 0.3rem; // needs to be changed
   border-radius: 3px;
   margin: 0 $remDivPhi;
   white-space: nowrap;
 }
+
 pre {
   border-radius: 3px;
   width: 100%;
@@ -147,11 +143,13 @@ pre {
     font-family: $serifFont;
   }
 }
+
 // font style 2
 .contrast-style-1 {
   h1, h2, h3, h4, h5, h6 {
     font-family: $sansSerifFont;
   }
+  
   div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
     font-family: $serifFont;
   }
