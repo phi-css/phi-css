@@ -6,16 +6,19 @@ $remDivPhi: 1rem / $phi;
 
 // grid variables
 $base: 100%;
-$phi10: $base / $phi;
-$phi9: $base / $phi10;
-$phi8: $phi9 / $phi;
-$phi7: $phi9 / $phi8;
-$phi6: $phi7 / $phi;
-$phi5: $phi7 / $phi6;
-$phi4: $phi5 / $phi;
-$phi3: $phi5 / $phi4;
-$phi2: $phi3 / $phi;
-$phi1: $phi3 / $phi2;
+
+:root {
+  --phi-col-10: calc(#{$base} / #{$phi});
+  --phi-col-9: calc(#{$base} - var(--phi-col-10));
+  --phi-col-8: calc(var(--phi-col-9) / #{$phi});
+  --phi-col-7: calc(var(--phi-col-9) - var(--phi-col-8));
+  --phi-col-6: calc(var(--phi-col-7) / #{$phi});
+  --phi-col-5: calc(var(--phi-col-7) - var(--phi-col-6));
+  --phi-col-4: calc(var(--phi-col-5) / #{$phi});
+  --phi-col-3: calc(var(--phi-col-5) - var(--phi-col-4));
+  --phi-col-2: calc(var(--phi-col-3) / #{$phi});
+  --phi-col-1: calc(var(--phi-col-3) - var(--phi-col-2));
+}
 
 // typography variables
 $sansSerifFont: "Poppins", sans-serif;

@@ -22,47 +22,47 @@
   }
 
   .phi-col-xl {
-    width: $base - $phi6 + $phi6;
+    width: calc(#{$base} - (var(--phi-col-6) + var(--phi-col-6)));
   }
 
   .phi-col-10, .phi-col-lg {
-    width: $phi10;
+    width: var(--phi-col-10);
   }
 
   .phi-col-9, .phi-col-md {
-    width: $phi9;
+    width: var(--phi-col-9);
   }
 
   .phi-col-8, .phi-col-sm {
-    width: $phi8;
+    width: var(--phi-col-8);
   }
 
   .phi-col-7 {
-    width: $phi7;
+    width: var(--phi-col-7);
   }
   
   .phi-col-6 {
-    width: $phi6;
+    width: var(--phi-col-6);
   }
 
   .phi-col-5 {
-    width: $phi5;
+    width: var(--phi-col-5);
   }
 
   .phi-col-4 {
-    width: $phi4;
+    width: var(--phi-col-4);
   }
 
   .phi-col-3 {
-    width: $phi3;
+    width: var(--phi-col-3);
   }
 
   .phi-col-2 {
-    width: $phi2;
+    width: var(--phi-col-2);
   }
 
   .phi-col-1 {
-    width: $phi1;
+    width: var(--phi-col-1);
   }
 }
 
