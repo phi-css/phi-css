@@ -8,14 +8,14 @@ $remDivPhi: 1rem / $phi;
 $base: 100%;
 $phi10: $base / $phi;
 $phi9: $base / $phi10;
-$phi8: $base / $phi;
-$phi7: $base / $phi8;
-$phi6: $base / $phi;
-$phi5: $base / $phi6;
-$phi4: $base / $phi;
-$phi3: $base / $phi4;
-$phi2: $base / $phi;
-$phi1: $base / $phi2;
+$phi8: $phi9 / $phi;
+$phi7: $phi9 / $phi8;
+$phi6: $phi7 / $phi;
+$phi5: $phi7 / $phi6;
+$phi4: $phi5 / $phi;
+$phi3: $phi5 / $phi4;
+$phi2: $phi3 / $phi;
+$phi1: $phi3 / $phi2;
 
 // typography variables
 $sansSerifFont: "Poppins", sans-serif;
