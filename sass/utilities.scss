@@ -1,3 +1,17 @@
+@import 'variables';
+
+:root {
+  // font variables in CSS
+  --serif-font: #{$serifFont};
+  --sans-serif-font: #{$sansSerifFont};
+  --minospace-fonr: #{$monospaceFont};
+
+  // color variables in CSS
+  --dark: #{$dark};
+  --light: #{$light};
+  --accent: #{$accent};
+}
+
 div[class*="flex"] {
   display: flex;
 }
