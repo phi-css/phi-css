@@ -90,7 +90,12 @@ input[type="email"], input[type="number"], input[type="password"], input[type="s
   width: 100%;
   border: 0.05rem solid gray; // needs to be changed
   padding: $remDivPhi 1rem;
-  font-size: calc(12px + (18 - 12) * ((100vw - 380px) / (1440 - 380)));
+  font-size: calc(14px + (18 - 14) * ((100vw - 360px) / (1440 - 360)));
+
+  &:focus {
+    border-radius: 0;
+    outline: none;
+  }
 }
 
 .checkbox-input, .radio-input {

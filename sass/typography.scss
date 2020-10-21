@@ -2,7 +2,7 @@
 @import 'variables';
 
 :root {
-  font-size: calc(12px + (16 - 12) * ((100vw - 360px) / (1440 - 360)));
+  font-size: calc(14px + (18 - 14) * ((100vw - 360px) / (1440 - 320)));
 }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
@@ -16,9 +16,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
-  margin-top: $remMulPhi;
+  margin-top: 0;
   width: 100%;
-  line-height: 1;
+  line-height: $phi;
 }
 
 h1 {
@@ -41,8 +41,28 @@ h5 {
   font-size: $h5;
 }
 
-h6 {
+h6, h6.adjusted-heading {
   font-size: $h6;
+}
+
+h1.adjusted-heading {
+  font-size: $adjustedH1;
+}
+
+h2.adjusted-heading {
+  font-size: $adjustedH2;
+}
+
+h3.adjusted-heading {
+  font-size: $adjustedH3;
+}
+
+h4.adjusted-heading {
+  font-size: $adjustedH4;
+}
+
+h5.adjusted-heading {
+  font-size: $adjustedH5;
 }
 
 p {
@@ -85,7 +105,7 @@ blockquote {
 
 code, kbd, samp, pre {
   font-family: $monospaceFont;
-  font-size: calc(10px + (14 - 10) * ((100vw - 360px) / (1440 - 360)));
+  font-size: calc(12px + (16 - 12) * ((100vw - 360px) / (1440 - 360)));
 }
 
 samp {
