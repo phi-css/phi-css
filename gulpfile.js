@@ -6,7 +6,7 @@ const sass = require('gulp-sass');
 const autoprefixer = require('gulp-autoprefixer');
 const cleanCSS = require('gulp-clean-css');
 const rename = require('gulp-rename');
-const merge = require('merge-stream');
+const gzip = require('gulp-gzip');
 
 sass.compiler = require('node-sass');
 
@@ -38,6 +38,12 @@ function build() {
             path.basename += '.min';
             path.extname = '.css'
         }))
+        .pipe(gulp.dest('./dist'))
+}
+
+function createDist() {
+    return gulp.src('./build/*.css')
+        .pipe(gzip())
         .pipe(gulp.dest('./dist'))
 }
 
