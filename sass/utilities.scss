@@ -51,3 +51,8 @@ div[class*="flex"] {
 .justify-space-between {
   justify-content: space-between;
 }
+
+.full-width {
+  width: 100vw;
+  margin: 0 calc(50% - 50vw);
+}
