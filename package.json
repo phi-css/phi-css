@@ -35,5 +35,8 @@
     "gulp-sourcemaps": "^2.6.5",
     "node-sass": "^4.14.1"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/phi-css"
+  }
 }
