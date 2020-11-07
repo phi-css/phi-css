@@ -2,7 +2,8 @@
 
 const gulp = require('gulp');
 const clean = require('gulp-clean');
-const sass = require('gulp-sass');
+// const sass = require('gulp-sass');
+const sass = require('gulp-dart-sass');
 const autoprefixer = require('gulp-autoprefixer');
 const cleanCSS = require('gulp-clean-css');
 const rename = require('gulp-rename');
