@@ -10,6 +10,11 @@
   --dark: #{$dark};
   --light: #{$light};
   --accent: #{$accent};
+
+  // phi-variables
+  --phi: #{$phi};
+  --rem-mul-phi: #{$remMulPhi};
+  --rem-div-phi: #{$remDivPhi};
 }
 
 div[class*="flex"] {
