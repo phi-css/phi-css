@@ -1,8 +1,10 @@
+@import 'functions';
+
 // utility variables
 $phi: 1.618;
 $remMulPhi: 1rem * $phi;
 $remDivPhi: 1rem / $phi;
-
+$cDivPhi: 100% / 1.618;
 
 // grid variables
 $base: 100%;
@@ -42,16 +44,30 @@ $paragraphWidth: calc(50ch * #{$phi});
 
 // color variables
 $dark: #242831;
-$light: #E5EAF0;
+$light: #F8F8FF;
 $accent: #242831;
-$primary: '';
-$seconday: '';
-$success: '';
-$info: '';
-$warning: '';
-$error: '';
+
+$info: #3EAEFF;
+$infoLight: tint($info, $cDivPhi);
+$infoDark: shade($info, $cDivPhi);
+
+$success: #00DD8D;
+$successLight: tint($success, $cDivPhi);
+$successDark: shade($success, $cDivPhi);
+
+$error: #FF6666;
+$errorLight: tint($error, $cDivPhi);
+$errorDark: shade($error, $cDivPhi);
+
+$warning: #FF9559;
+$warningLight: tint($warning, $cDivPhi);
+$warningDark: shade($warning, $cDivPhi);
+
+$disabled: #B5B5B5;
+$disabledLight: tint($disabled, $cDivPhi);
+$disabledDark: shade($disabled, $cDivPhi);
+
 $codeColor: '';
-$disabled: '';
 
 // transition variable
 $transition: 0.3s ease-in-out;
