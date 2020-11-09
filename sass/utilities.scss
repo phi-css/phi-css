@@ -5,16 +5,36 @@
   --serif-font: #{$serifFont};
   --sans-serif-font: #{$sansSerifFont};
   --minospace-fonr: #{$monospaceFont};
+  
+  // phi-variables
+  --phi: #{$phi};
+  --rem-mul-phi: #{$remMulPhi};
+  --rem-div-phi: #{$remDivPhi};
 
   // color variables in CSS
   --dark: #{$dark};
   --light: #{$light};
   --accent: #{$accent};
 
-  // phi-variables
-  --phi: #{$phi};
-  --rem-mul-phi: #{$remMulPhi};
-  --rem-div-phi: #{$remDivPhi};
+  --info: #{$info};
+  --info-light: #{$infoLight};
+  --info-dark: #{$infoDark};
+
+  --success: #{$success};
+  --success-light: #{$successLight};
+  --success-dark: #{$successDark};
+  
+  --error: #{$error};
+  --error-light: #{$errorLight};
+  --error-dark: #{$errorDark};
+
+  --warning: #{$warning};
+  --warning-light: #{$warningLight};
+  --warning-dark: #{$warningDark};
+
+  --disabled: #{$disabled};
+  --disabled-light: #{$disabledLight};
+  --disabled-dark: #{$disabledDark};
 }
 
 div[class*="flex"] {
