@@ -53,28 +53,48 @@ div[class*="flex"] {
   flex-direction: column-reverse;
 }
 
-.justify-start {
+.justify-content-start {
   justify-content: flex-start;
 }
 
-.justify-end {
+.justify-content-end {
   justify-content: flex-end;
 }
 
-.justify-center {
+.justify-content-center {
   justify-content: center;
 }
 
-.justify-space-evenly {
+.justify-content-space-evenly {
   justify-content: space-evenly;
 }
 
-.justify-space-around {
+.justify-content-space-around {
   justify-content: space-around;
 }
 
-.justify-space-between {
+.justify-content-space-between {
   justify-content: space-between;
+}
+
+.align-items-start {
+  align-items: flex-start;
+}
+
+.align-items-end {
+  align-items: flex-end;  
+}
+
+.align-items-center {
+  align-items: center;  
+}
+
+.align-items-baseline {
+  align-items: baseline;  
+}
+
+.align-items-stretch {
+  align-items: stretch;  
 }
 
 .full-width {
