@@ -25,20 +25,12 @@ $serifFont: "Playfair Display", serif;
 $monospaceFont: "Fira Code", monospace;
 
 // true heading types
-$h6: 1rem;
-$h5: $h6 * $phi;
+$h5: 1rem;
 $h4: $h5 * $phi;
 $h3: $h4 * $phi;
 $h2: $h3 * $phi;
 $h1: $h2 * $phi;
-
-// adjusted heading types
-$adjustedH5: $remMulPhi;
-$adjustedH4: 2rem;
-$adjustedH3: 1rem + $phi;
-$adjustedH2: 3rem;
-$adjustedH1: 2rem + $phi;
-// $adjustedH1: 3rem + $phi;
+$h6: $h5 / $phi;
 
 $paragraphWidth: calc(50ch * #{$phi});
 
