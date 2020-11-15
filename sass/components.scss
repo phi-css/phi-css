@@ -90,7 +90,7 @@ input[type="email"], input[type="number"], input[type="password"], input[type="s
   width: 100%;
   border: 0.05rem solid gray; // needs to be changed
   padding: $remDivPhi 1rem;
-  font-size: calc(14px + (18 - 14) * ((100vw - 360px) / (1440 - 360)));
+  font-size: calc(14px + (16 - 14) * ((100vw - 360px) / (1440 - 360)));
 
   &:focus {
     border-radius: 0;
