@@ -5,7 +5,7 @@
   --serif-font: #{$serifFont};
   --sans-serif-font: #{$sansSerifFont};
   --minospace-fonr: #{$monospaceFont};
-  
+
   // phi-variables
   --phi: #{$phi};
   --rem-mul-phi: #{$remMulPhi};
@@ -17,27 +17,30 @@
   // color variables in CSS
   --dark: #{$dark};
   --light: #{$light};
+
   --accent: #{$accent};
+  --accent-tint: #{$accentTint};
+  --accent-shade: #{$accentShade};
 
   --info: #{$info};
-  --info-light: #{$infoLight};
-  --info-dark: #{$infoDark};
+  --info-tint: #{$infoTint};
+  --info-shade: #{$infoShade};
 
   --success: #{$success};
-  --success-light: #{$successLight};
-  --success-dark: #{$successDark};
-  
+  --success-tint: #{$successTint};
+  --success-shade: #{$successShade};
+
   --error: #{$error};
-  --error-light: #{$errorLight};
-  --error-dark: #{$errorDark};
+  --error-tint: #{$errorTint};
+  --error-shade: #{$errorShade};
 
   --warning: #{$warning};
-  --warning-light: #{$warningLight};
-  --warning-dark: #{$warningDark};
+  --warning-tint: #{$warningTint};
+  --warning-shade: #{$warningShade};
 
   --disabled: #{$disabled};
-  --disabled-light: #{$disabledLight};
-  --disabled-dark: #{$disabledDark};
+  --disabled-tint: #{$disabledTint};
+  --disabled-shade: #{$disabledShade};
 }
 
 div[class*="flex"] {
@@ -85,19 +88,19 @@ div[class*="flex"] {
 }
 
 .align-items-end {
-  align-items: flex-end;  
+  align-items: flex-end;
 }
 
 .align-items-center {
-  align-items: center;  
+  align-items: center;
 }
 
 .align-items-baseline {
-  align-items: baseline;  
+  align-items: baseline;
 }
 
 .align-items-stretch {
-  align-items: stretch;  
+  align-items: stretch;
 }
 
 .full-width {
