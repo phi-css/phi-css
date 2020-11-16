@@ -4,7 +4,7 @@
 $phi: 1.618;
 $remMulPhi: 1rem * $phi;
 $remDivPhi: 1rem / $phi;
-$cDivPhi: 100% / 1.618;
+$cDivPhi: 100% / $phi;
 
 // grid variables
 $base: 100%;
@@ -36,29 +36,32 @@ $paragraphWidth: calc(50ch * #{$phi});
 // color variables
 $dark: #242831;
 $light: #F8F8FF;
-$accent: #242831;
+
+$accent: #7A65FB;
+$accentTint: tint($accent, $cDivPhi);
+$accentShade: shade($accent, $cDivPhi);
 
 $info: #3EAEFF;
-$infoLight: tint($info, $cDivPhi);
-$infoDark: shade($info, $cDivPhi);
+$infoTint: tint($info, $cDivPhi);
+$infoShade: shade($info, $cDivPhi);
 
 $success: #00DD8D;
-$successLight: tint($success, $cDivPhi);
-$successDark: shade($success, $cDivPhi);
+$successTint: tint($success, $cDivPhi);
+$successShade: shade($success, $cDivPhi);
 
 $error: #FF6666;
-$errorLight: tint($error, $cDivPhi);
-$errorDark: shade($error, $cDivPhi);
+$errorTint: tint($error, $cDivPhi);
+$errorShade: shade($error, $cDivPhi);
 
 $warning: #FF9559;
-$warningLight: tint($warning, $cDivPhi);
-$warningDark: shade($warning, $cDivPhi);
+$warningTint: tint($warning, $cDivPhi);
+$warningShade: shade($warning, $cDivPhi);
 
 $disabled: #B5B5B5;
-$disabledLight: tint($disabled, $cDivPhi);
-$disabledDark: shade($disabled, $cDivPhi);
+$disabledTint: tint($disabled, $cDivPhi);
+$disabledShade: shade($disabled, $cDivPhi);
 
-$codeColor: '';
+$codeColor: $disabledShade;
 
 // transition variable
 $transition: 0.3s ease-in-out;
