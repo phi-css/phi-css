@@ -98,12 +98,6 @@ code, kbd, pre {
   margin-left: 0;
 }
 
-p {
-  > code, > kbd {
-    margin: 0 $remDivPhi;
-  }
-} 
-
 strong {
   font-weight: 600;
 }
@@ -122,7 +116,6 @@ pre {
 kbd, code {
   padding: 0.2rem 0.3rem; // needs to be changed
   border-radius: 3px;
-  margin: 0 $remDivPhi;
   white-space: nowrap;
 }
 
@@ -133,7 +126,6 @@ kbd, pre {
 kbd, code {
   padding: 0.2rem 0.3rem; // needs to be changed
   border-radius: 3px;
-  margin: 0 $remDivPhi;
   white-space: nowrap;
 }
 
@@ -157,7 +149,7 @@ pre {
   h1, h2, h3, h4, h5, h6 {
     font-family: $sansSerifFont;
   }
-  
+
   div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
     font-family: $serifFont;
   }
