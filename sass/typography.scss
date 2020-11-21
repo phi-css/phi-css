@@ -104,6 +104,14 @@ p {
   }
 } 
 
+strong {
+  font-weight: 600;
+}
+
+em {
+  font-style: italic;
+}
+
 pre {
   > code {
     margin-left: 0;
