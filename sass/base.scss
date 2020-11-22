@@ -151,6 +151,14 @@ template, [hidden] {
 	display: none;
 }
 
+.container {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	max-width: 960px;
+	padding: 0 1rem;
+}
+
 .phi-image {
 	width: 100%;
 	height: auto;
