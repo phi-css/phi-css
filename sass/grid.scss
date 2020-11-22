@@ -60,10 +60,6 @@
 
 // for mobile screens with max width of 765px will have col lengths set to 100%
 @media only screen and (max-width: 765px) {
-  .container {
-    max-width: 720px;
-  }
-
   div[class^="phi-col"]{
     width: 100% !important;
   }
