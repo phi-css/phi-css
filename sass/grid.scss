@@ -1,13 +1,5 @@
 @import 'variables';
 
-.container {
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-  max-width: 960px;
-  padding: 0 1rem;
-}
-
 .row {
   width: 100%;
   position: relative;
@@ -40,7 +32,7 @@
   .phi-col-7, .phi-col-xs {
     width: $phiCol7;
   }
-  
+
   .phi-col-6 {
     width: $phiCol6;
   }
