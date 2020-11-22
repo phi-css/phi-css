@@ -79,8 +79,10 @@ dd {
 blockquote {
   width: $base;
   border-left: 0.3rem solid $accent;
-  margin: 0 0 0 0;
+  margin: 0;
   padding: $remDivPhi $remMulPhi;
+  margin-left: var(--rem-mul-phi);
+  font-style: italic;
 }
 
 code, kbd, samp, pre {
