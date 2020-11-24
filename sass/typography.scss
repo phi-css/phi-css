@@ -12,6 +12,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   text-align: left;
   word-wrap: break-word;
   letter-spacing: 1px / $phi;
+  word-spacing: 1px / $phi;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -148,12 +149,12 @@ pre {
 }
 
 // font style 2
-.contrast-style-1 {
+.contrast-style-2 {
   h1, h2, h3, h4, h5, h6 {
     font-family: $sansSerifFont;
   }
 
-  div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
     font-family: $serifFont;
   }
 }
