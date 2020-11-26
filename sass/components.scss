@@ -11,7 +11,7 @@ a {
 .button {
   background-color: $accent;
   border: 1px solid $accent;
-  outline: none;  
+  outline: none;
   border-radius: 0;
   color: $light;
   display: inline-block;
@@ -20,14 +20,17 @@ a {
   letter-spacing: 1px * $phi;
   text-align: center;
   white-space: nowrap;
-
+  transition: $transition;
   &:hover {
-    transition: $transition;  
     cursor: pointer;
-    background-color: $light;
-    color: $accent;
-    border-color: $light;
+    background-color: $accentShade;
+    color: $accentTint;
+    border-color: $accentShade;
   }
+}
+
+.button.active {
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .button.button-secondary {
@@ -35,23 +38,117 @@ a {
   color: $accent;
 
   &:hover {
-    background-color: $light;
+    background-color: $accent;
+    border-color: $accent;
+    color: $light;
   }
 }
 
 .button.button-ghost {
-  background: transparent;
+  background-color: transparent;
   border: 0px;
   color: $accent;
 }
 
-.button.button-disabled {
-  background: gainsboro;
-  border-color: gainsboro;
-  color: #ffffff;
+.button.button-info {
+  background-color: $info;
+  color: $light;
+  border-color: $info;
+  &:hover {
+    background-color: $infoShade;
+    color: $infoTint;
+    border-color: $infoShade;
+  }
+}
+
+.button.button-success {
+  background-color: $success;
+  color: $light;
+  border-color: $success;
+  &:hover {
+    background-color: $successShade;
+    color: $successTint;
+    border-color: $successShade;
+  }
+}
+
+.button.button-warning {
+  background-color: $warning;
+  color: $light;
+  border-color: $warning;
+  &:hover {
+    background-color: $warningShade;
+    color: $warningTint;
+    border-color: $warningShade;
+  }
+}
+
+.button.button-error {
+  background-color: $error;
+  color: $light;
+  border-color: $error;
+  &:hover {
+    background-color: $errorShade;
+    color: $errorTint;
+    border-color: $errorShade;
+  }
+}
+
+.button.button-disabled, .button:disabled {
+  opacity: 0.6;
 
   &:hover {
     cursor: not-allowed;
+    color: $light;
+    background-color: $accent;
+    border-color: $accent;
+  }
+}
+
+.button.button-secondary.button-disabled {
+  &:hover {
+    background-color: transparent;
+    color: $accent;
+  }
+}
+
+.button.button-ghost.button-disabled {
+  &:hover {
+    background-color: transparent;
+    border: 0px;
+    color: $accent;
+  }
+}
+
+.button.button-info.button-disabled {
+  &:hover {
+    background-color: $info;
+    color: $light;
+    border-color: $info;
+  }
+}
+
+.button.button-success.button-disabled {
+  &:hover {
+    background-color: $success;
+    color: $light;
+    border-color: $success;
+  }
+}
+
+.button.button-warning.button-disabled {
+  &:hover {
+    background-color: $warning;
+    color: $light;
+    border-color: $warning;
+  }
+}
+
+.button.button-error.button-disabled {
+  &:hover {
+    background-color: $error;
+    color: $light;
+    border-color: $error;
   }
 }
 
@@ -100,7 +197,7 @@ input[type="email"], input[type="number"], input[type="password"], input[type="s
 .checkbox-input, .radio-input {
   display: flex;
   align-items: center;
-  
+
   & > label {
     padding-left: $remDivPhi;
   }
