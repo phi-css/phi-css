@@ -38,9 +38,9 @@
   --warning-tint: #{$warningTint};
   --warning-shade: #{$warningShade};
 
-  --disabled: #{$disabled};
-  --disabled-tint: #{$disabledTint};
-  --disabled-shade: #{$disabledShade};
+  --grey: #{$grey};
+  --grey-tint: #{$greyTint};
+  --grey-shade: #{$greyShade};
 }
 
 div[class*="flex"] {
