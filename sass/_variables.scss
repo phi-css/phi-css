@@ -58,11 +58,11 @@ $warning: #FF9559;
 $warningTint: tint($warning, $cDivPhi);
 $warningShade: shade($warning, $cDivPhi);
 
-$disabled: #B5B5B5;
-$disabledTint: tint($disabled, $cDivPhi);
-$disabledShade: shade($disabled, $cDivPhi);
+$grey: #B5B5B5;
+$greyTint: tint($grey, $cDivPhi);
+$greyShade: shade($grey, $cDivPhi);
 
-$codeColor: $disabledShade;
+$codeColor: $greyShade;
 
 // transition variable
 $transition: 0.3s ease-in-out;
