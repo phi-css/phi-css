@@ -4,6 +4,14 @@ a {
   color: $accent;
 
   &:hover {
+    color: $accentShade;
+  }
+}
+
+a {
+  color: $accent;
+
+  &:hover {
     color: $accent;
   }
 }
@@ -49,107 +57,8 @@ a {
   background-color: transparent;
   border: 0px;
   color: $accent;
-}
-
-.button.button-info {
-  background-color: $info;
-  color: $light;
-  border-color: $info;
   &:hover {
-    background-color: $infoShade;
-    color: $infoTint;
-    border-color: $infoShade;
-  }
-}
-
-.button.button-success {
-  background-color: $success;
-  color: $light;
-  border-color: $success;
-  &:hover {
-    background-color: $successShade;
-    color: $successTint;
-    border-color: $successShade;
-  }
-}
-
-.button.button-warning {
-  background-color: $warning;
-  color: $light;
-  border-color: $warning;
-  &:hover {
-    background-color: $warningShade;
-    color: $warningTint;
-    border-color: $warningShade;
-  }
-}
-
-.button.button-error {
-  background-color: $error;
-  color: $light;
-  border-color: $error;
-  &:hover {
-    background-color: $errorShade;
-    color: $errorTint;
-    border-color: $errorShade;
-  }
-}
-
-.button.button-disabled, .button:disabled {
-  opacity: 0.6;
-
-  &:hover {
-    cursor: not-allowed;
-    color: $light;
-    background-color: $accent;
-    border-color: $accent;
-  }
-}
-
-.button.button-secondary.button-disabled {
-  &:hover {
-    background-color: transparent;
-    color: $accent;
-  }
-}
-
-.button.button-ghost.button-disabled {
-  &:hover {
-    background-color: transparent;
-    border: 0px;
-    color: $accent;
-  }
-}
-
-.button.button-info.button-disabled {
-  &:hover {
-    background-color: $info;
-    color: $light;
-    border-color: $info;
-  }
-}
-
-.button.button-success.button-disabled {
-  &:hover {
-    background-color: $success;
-    color: $light;
-    border-color: $success;
-  }
-}
-
-.button.button-warning.button-disabled {
-  &:hover {
-    background-color: $warning;
-    color: $light;
-    border-color: $warning;
-  }
-}
-
-.button.button-error.button-disabled {
-  &:hover {
-    background-color: $error;
-    color: $light;
-    border-color: $error;
+    color: $accentShade;
   }
 }
 
@@ -216,61 +125,6 @@ a {
     color: $light;
     background-color: $accent;
     border-color: $accent;
-  }
-}
-
-.button.button-secondary.button-disabled {
-  &:hover {
-    background-color: transparent;
-    color: $accent;
-  }
-}
-
-.button.button-ghost.button-disabled {
-  &:hover {
-    background-color: transparent;
-    border: 0px;
-    color: $accent;
-  }
-}
-
-.button.button-info.button-disabled {
-  &:hover {
-    background-color: $info;
-    color: $light;
-    border-color: $info;
-  }
-}
-
-.button.button-success.button-disabled {
-  &:hover {
-    background-color: $success;
-    color: $light;
-    border-color: $success;
-  }
-}
-
-.button.button-warning.button-disabled {
-  &:hover {
-    background-color: $warning;
-    color: $light;
-    border-color: $warning;
-  }
-}
-
-.button.button-error.button-disabled {
-  &:hover {
-    background-color: $error;
-    color: $light;
-    border-color: $error;
-  }
-}
-
-.button.button-grey.button-disabled {
-  &:hover {
-    background-color: $grey;
-    color: $light;
-    border-color: $grey;
   }
 }
 
