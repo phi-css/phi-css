@@ -3,9 +3,11 @@
 a, .link {
   color: $accent;
   transition: $transition;
+  text-decoration: none;
 
   &:hover {
     color: $accentShade;
+    text-decoration: underline;
   }
 }
 
