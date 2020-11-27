@@ -103,6 +103,14 @@ div[class*="flex"] {
   align-items: stretch;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
 .full-width {
   width: 100vw;
   margin: 0 calc(50% - 50vw);
