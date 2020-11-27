@@ -1,6 +1,6 @@
 @import 'variables';
 
-a, .link {
+a.link {
   color: $accent;
   transition: $transition;
   text-decoration: none;
@@ -11,7 +11,7 @@ a, .link {
   }
 }
 
-a.link-secondary {
+a.link.link-secondary {
   color: $accentTint;
 
   &:hover {
@@ -19,7 +19,7 @@ a.link-secondary {
   }
 }
 
-a.link-info {
+a.link.link-info {
   color: $info;
 
   &:hover {
@@ -27,7 +27,7 @@ a.link-info {
   }
 }
 
-a.link-success {
+a.link.link-success {
   color: $success;
 
   &:hover {
@@ -35,7 +35,7 @@ a.link-success {
   }
 }
 
-a.link-warning {
+a.link.link-warning {
   color: $warning;
 
   &:hover {
@@ -43,7 +43,7 @@ a.link-warning {
   }
 }
 
-a.link-error {
+a.link.link-error {
   color: $error;
 
   &:hover {
@@ -51,7 +51,7 @@ a.link-error {
   }
 }
 
-a.link-grey {
+a.link.link-grey {
   color: $grey;
 
   &:hover {
