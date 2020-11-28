@@ -1,0 +1,20 @@
+.table {
+  border-spacing: 0;
+  width: 100%;
+
+  th {
+    background-color: $dark;
+    color: $light;
+    font-weight: 600;
+  }
+
+  td, th {
+    padding: 1rem $remMulPhi;
+    text-align: left;
+    border-bottom: 0.05rem solid $greyTint;
+  }
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
