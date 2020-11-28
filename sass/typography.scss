@@ -124,13 +124,7 @@ kbd, code {
 }
 
 kbd, pre {
-  border: 1px solid gainsboro; // needs to be changed
-}
-
-kbd, code {
-  padding: 0.2rem 0.3rem; // needs to be changed
-  border-radius: 3px;
-  white-space: nowrap;
+  border: 1px solid $greyTint;
 }
 
 pre {
