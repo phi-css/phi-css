@@ -193,6 +193,7 @@ input[type="email"], input[type="number"], input[type="password"], input[type="s
   padding: $remDivPhi 1rem;
   font-size: 1rem;
   line-height: $phi;
+  font-weight: 300;
 
   &:focus {
     border-radius: 0;
@@ -201,10 +202,11 @@ input[type="email"], input[type="number"], input[type="password"], input[type="s
 }
 
 .form-checkbox, .form-radio {
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  line-height: 0;
 
   & > label {
-    padding-left: $remDivPhi;
+    padding: 0 $remMulPhi 0 $remDivPhi;
   }
 }
