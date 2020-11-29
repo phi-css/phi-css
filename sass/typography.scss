@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Playfair+Display:wght@400;700;900&family=Poppins:wght@100;300;400;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@100;300;600;&family=Playfair+Display:wght@400;700;900&family=Poppins:wght@100;300;400;600;900&display=swap');
 @import 'variables';
 
 :root {
@@ -87,7 +87,7 @@ blockquote {
   font-style: italic;
 }
 
-code, kbd, samp, pre {
+code, kbd, samp, pre, var {
   font-family: $monospaceFont;
   font-size: 1rem;
 }
@@ -98,7 +98,7 @@ samp {
 }
 
 code, kbd, pre {
-  background: #efefef;
+  background: $greyTint;
   margin-left: 0;
 }
 
@@ -117,14 +117,19 @@ pre {
   }
 }
 
+kbd {
+  font-weight: 600;
+}
+
 kbd, code {
   padding: 0.2rem 0.3rem; // needs to be changed
   border-radius: 3px;
   white-space: nowrap;
+  font-size: 90%;
 }
 
 kbd, pre {
-  border: 1px solid $greyTint;
+  border: 1px solid $grey;
 }
 
 pre {
