@@ -11,7 +11,7 @@ a {
 .button {
   background-color: $accent;
   border: 1px solid $accent;
-  outline: none;  
+  outline: none;
   border-radius: 0;
   color: $light;
   display: inline-block;
@@ -22,7 +22,7 @@ a {
   white-space: nowrap;
 
   &:hover {
-    transition: $transition;  
+    transition: $transition;
     cursor: pointer;
     background-color: $light;
     color: $accent;
@@ -102,10 +102,10 @@ input[type="email"], input[type="number"], input[type="password"], input[type="s
   }
 }
 
-.checkbox-input, .radio-input {
+.form-checkbox, .form-radio {
   display: flex;
   align-items: center;
-  
+
   & > label {
     padding-left: $remDivPhi;
   }
