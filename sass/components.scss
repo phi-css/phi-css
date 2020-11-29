@@ -78,6 +78,10 @@ form {
   width: 100%;
 }
 
+.form-input {
+  margin-bottom: $remMulPhi;
+}
+
 label {
   display: block;
   width: 100%;
@@ -86,11 +90,11 @@ label {
 }
 
 input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], textarea, select {
-  margin-bottom: $remMulPhi;
   width: 100%;
   border: 0.05rem solid gray; // needs to be changed
   padding: $remDivPhi 1rem;
-  font-size: calc(14px + (16 - 14) * ((100vw - 360px) / (1440 - 360)));
+  font-size: 1rem;
+  line-height: $phi;
 
   &:focus {
     border-radius: 0;

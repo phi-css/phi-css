@@ -89,7 +89,7 @@ blockquote {
 
 code, kbd, samp, pre {
   font-family: $monospaceFont;
-  font-size: calc(12px + (16 - 12) * ((100vw - 360px) / (1440 - 360)));
+  font-size: 1rem;
 }
 
 samp {
