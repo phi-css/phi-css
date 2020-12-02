@@ -20,9 +20,9 @@ $phiCol2: $phiCol3 / $phi;
 $phiCol1: $phiCol3 - $phiCol2;
 
 // font variables
-$sansSerifFont: "Poppins", sans-serif;
-$serifFont: "Playfair Display", serif;
-$monospaceFont: "Fira Code", monospace;
+$sansSerifFont: "Poppins", Arial, Helvetica, sans-serif;
+$serifFont: "Playfair Display", Times, serif;
+$monospaceFont: "Fira Code", Courier, monospace;
 
 // true heading types
 $h5: 1rem;
