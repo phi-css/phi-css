@@ -1,27 +1,148 @@
 @import 'variables';
 
 .dark {
-  filter: invert(100%);
-}
+  // global color scheme
+  color: $light;
+  background-color: $dark;
 
-.dark {
+  // link color scheme
+  a.link {
+    &:hover {
+      color: $accentTint;
+    }
+  }
+
+  a.link.link-secondary {
+    color: $accentTint;
+
+    &:hover {
+      color: $accent;
+    }
+  }
+
+  a.link.link-info {
+    &:hover {
+      color: $infoTint;
+    }
+  }
+
+  a.link.link-success {
+    &:hover {
+      color: $successTint;
+    }
+  }
+
+  a.link.link-warning {
+    &:hover {
+      color: $warningTint;
+    }
+  }
+
+  a.link.link-error {
+    &:hover {
+      color: $errorTint;
+    }
+  }
+
+  a.link.link-grey {
+    &:hover {
+      color: $greyTint;
+    }
+  }
+
+  // buttons color scheme
+  .button.button-primary {
+    &:hover {
+      background-color: $accentTint;
+      color: $accentShade;
+      border-color: $accentTint;
+    }
+  }
+
+  .button.button-secondary {
+    &:hover {
+      background-color: $accentShade;
+      color: $accentTint;
+      border-color: $accentShade;
+    }
+  }
+
+  .button.button-ghost {
+    &:hover {
+      color: $accentTint;
+    }
+  }
+
+  .button.button-info {
+    &:hover {
+      background-color: $infoTint;
+      color: $infoShade;
+      border-color: $infoTint;
+    }
+  }
+
+  .button.button-success {
+    &:hover {
+      background-color: $successTint;
+      color: $successShade;
+      border-color: $successTint;
+    }
+  }
+
+  .button.button-warning {
+    &:hover {
+      background-color: $warningTint;
+      color: $warningShade;
+      border-color: $warningTint;
+    }
+  }
+
+  .button.button-error {
+    &:hover {
+      background-color: $errorTint;
+      color: $errorShade;
+      border-color: $errorTint;
+    }
+  }
+
+  .button.button-grey {
+    &:hover {
+      background-color: $greyTint;
+      color: $greyShade;
+      border-color: $greyTint;
+    }
+  }
+
+  // table color scheme
+  th {
+    background-color: $light;
+    color: $dark;
+    font-weight: 600;
+  }
+
+  // typographical color schemes
+  code, kbd, pre {
+    background: $greyShade;
+    color: $greyTint;
+  }
+
+  kbd, pre {
+    border-color: $greyTint;
+  }
+
+  samp {
+    color: $greyTint;
+  }
+
   /*
-    to retain the colors of teh image and make them slight grayish 
+    to retain the colors of the image and make them slight grayish
     so that its brightness can be adsjusted to the dark background
   */
   img, svg, canvas {
-    filter: invert(100%) grayscale(20%);
+    filter: grayscale(15%);
   }
-}
 
-.dark {
-  .button, .button.button-primary, button, input[type="button"], input[type="reset"], input[type="submit"] {
-    color: $light;
-    
-    &:hover {
-      background-color: $light;
-      color: $accent;
-      border-color: $light;
-    }
+  html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, td {
+    font-weight: 300;
   }
 }
