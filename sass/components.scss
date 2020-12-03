@@ -1,7 +1,9 @@
 @import 'variables';
 
 a.link {
-  transition: $transition;
+  &:hover {
+    transition: $transition;
+  }
 }
 
 a.link.link-primary {
@@ -70,7 +72,6 @@ a.link.link-grey {
   letter-spacing: 1px * $phi;
   text-align: center;
   white-space: nowrap;
-  transition: $transition;
   &:hover {
     transition: $transition;
     cursor: pointer;
@@ -197,8 +198,10 @@ input[type="email"], input[type="number"], input[type="password"], input[type="s
   font-weight: 300;
 
   &:focus {
+    transition: $transition;
     border-radius: 0;
     outline: none;
+    border-color: $accent;
   }
 }
 
