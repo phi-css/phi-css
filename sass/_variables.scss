@@ -32,7 +32,7 @@ $h2: $h3 * $phi;
 $h1: $h2 * $phi;
 $h6: $h5 / $phi;
 
-$paragraphWidth: calc(50ch * #{$phi});
+$paragraphWidth: 50ch * $phi;
 
 // color variables
 $dark: #242831;
