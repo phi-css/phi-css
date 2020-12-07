@@ -1,3 +1,5 @@
+@import 'variables';
+
 * {
 	box-sizing: border-box;
 }
@@ -151,12 +153,16 @@ template, [hidden] {
 	display: none;
 }
 
-.container {
+.phi-container, .phi-container-full {
 	width: 100%;
 	margin: 0 auto;
 	position: relative;
-	max-width: 960px;
+	max-width: $paragraphWidth;
 	padding: 0 1rem;
+}
+
+.phi-container-full {
+	max-width: 100vw;
 }
 
 .phi-image {
