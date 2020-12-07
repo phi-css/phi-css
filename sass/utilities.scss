@@ -43,8 +43,24 @@
   --grey-shade: #{$greyShade};
 }
 
-div[class*="flex"] {
+.hide {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.flex {
   display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
 }
 
 .flex-column {
