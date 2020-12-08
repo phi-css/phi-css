@@ -62,7 +62,5 @@ $grey: #B5B5B5;
 $greyTint: tint($grey, $cDivPhi);
 $greyShade: shade($grey, $cDivPhi);
 
-$codeColor: $greyShade;
-
 // transition variable
 $transition: 0.3s ease-in-out;

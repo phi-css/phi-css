@@ -78,8 +78,8 @@ a.link.link-grey {
   }
 }
 
-.button.active {
-  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+.button:active {
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.4);
 }
 
 .button.button-primary {
