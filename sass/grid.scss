@@ -9,6 +9,10 @@
 }
 
 .row {
+  & > * {
+    padding: $remDivPhi;
+  }
+
   .phi-col-base {
     width: $base;
   }
