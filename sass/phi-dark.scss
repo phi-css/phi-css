@@ -138,12 +138,6 @@
     color: $greyTint;
   }
 
-  // Form components
-  input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], textarea, select {
-    background-color: $dark;
-    color: $light;
-  }
-
   /*
     to retain the colors of the image and make them slight grayish
     so that its brightness can be adsjusted to the dark background
