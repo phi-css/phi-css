@@ -68,7 +68,7 @@ a.link.link-grey {
   border-radius: 0;
   display: inline-block;
   padding: $remDivPhi 1rem;
-  margin: $remDivPhi 1rem $remMulPhi * $phi 0;
+  margin: $remMulPhi $remDivPhi / $phi;
   letter-spacing: 1px * $phi;
   text-align: center;
   white-space: nowrap;
@@ -207,10 +207,14 @@ input[type="email"], input[type="number"], input[type="password"], input[type="s
 
 .form-checkbox, .form-radio {
   display: inline-flex;
-  align-items: center;
+  align-items: self-start;
   line-height: 0;
 
   & > label {
     padding: 0 $remMulPhi 0 $remDivPhi;
+  }
+
+  & > input {
+    margin-top: 5px;
   }
 }
