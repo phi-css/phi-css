@@ -127,6 +127,31 @@
   flex-wrap: wrap-reverse;
 }
 
+// text alignment
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-start {
+  text-align: start;
+}
+
+.text-end {
+  text-align: end;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
 .phi-full-width {
   width: 100vw;
   margin: 0 calc(50% - 50vw);
