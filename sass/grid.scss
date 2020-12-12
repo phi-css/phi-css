@@ -3,12 +3,10 @@
 .row {
   width: 100%;
   position: relative;
-  margin: $remDivPhi auto;
+  margin: $remDivPhi ($remDivPhi * -1);
   display: flex;
   flex-wrap: wrap;
-}
 
-.row {
   & > * {
     padding: $remDivPhi;
   }
