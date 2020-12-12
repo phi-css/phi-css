@@ -11,52 +11,36 @@
     padding: $remDivPhi;
   }
 
-  .phi-col-base {
+  .phi-col-0, .phi-col-base {
     width: $base;
   }
 
-  .phi-col-xl {
+  .phi-col-1, .phi-col-xl {
     width: $base - ($phiCol6 + $phiCol6);
   }
 
-  .phi-col-10, .phi-col-lg {
-    width: $phiCol10;
+  .phi-col-2, .phi-col-lg {
+    width: $phiCol2;
   }
 
-  .phi-col-9, .phi-col-md {
-    width: $phiCol9;
+  .phi-col-3, .phi-col-md {
+    width: $phiCol3;
   }
 
-  .phi-col-8, .phi-col-sm {
-    width: $phiCol8;
+  .phi-col-4, .phi-col-sm {
+    width: $phiCol4;
   }
 
-  .phi-col-7, .phi-col-xs {
-    width: $phiCol7;
+  .phi-col-5, .phi-col-xs {
+    width: $phiCol5;
   }
 
   .phi-col-6 {
     width: $phiCol6;
   }
 
-  .phi-col-5 {
-    width: $phiCol5;
-  }
-
-  .phi-col-4 {
-    width: $phiCol4;
-  }
-
-  .phi-col-3 {
-    width: $phiCol3;
-  }
-
-  .phi-col-2 {
-    width: $phiCol2;
-  }
-
-  .phi-col-1 {
-    width: $phiCol1;
+  .phi-col-7 {
+    width: $phiCol7;
   }
 }
 
