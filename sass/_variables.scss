@@ -8,16 +8,16 @@ $cDivPhi: 100% / $phi;
 
 // grid variables
 $base: 100%;
-$phiCol10: $base / $phi;
-$phiCol9: $base - $phiCol10;
-$phiCol8: $phiCol9 / $phi;
-$phiCol7: $phiCol9 - $phiCol8;
-$phiCol6: $phiCol7 / $phi;
-$phiCol5: $phiCol7 - $phiCol6;
-$phiCol4: $phiCol5 / $phi;
-$phiCol3: $phiCol5 - $phiCol4;
-$phiCol2: $phiCol3 / $phi;
-$phiCol1: $phiCol3 - $phiCol2;
+$phiCol2: $base / $phi;
+$phiCol3: $base - $phiCol2;
+$phiCol4: $phiCol3 / $phi;
+$phiCol5: $phiCol3 - $phiCol4;
+$phiCol6: $phiCol5 / $phi;
+$phiCol7: $phiCol5 - $phiCol6;
+$phiCol8: $phiCol5 / $phi;
+$phiCol9: $phiCol5 - $phiCol4;
+$phiCol10: $phiCol3 / $phi;
+$phiCol11: $phiCol3 - $phiCol2;
 
 // font variables
 $sansSerifFont: "Poppins", Arial, Helvetica, sans-serif;
