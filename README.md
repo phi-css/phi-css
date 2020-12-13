@@ -1,7 +1,6 @@
 # phi-css
 a CSS framework based on golden raito.
 
----
 #### Desciption
 This project is still in the alpha phase. This framework is built using the SASS (a css preprocessor).
 
@@ -31,7 +30,7 @@ or
 The framework is divided into different files, so if you don't want to use specific feature you can just exclude the file while importing or while linking it to the html file.
 
 Segregated file list:
-1. ```base.css/base.min.css```: 
+1. ```base.css/base.min.css```:
     This framework is based on the normalized css, which acts as browser default setting resetter, it is optimized to reduce the file size, also contains some other basic features.
 2. ```grid.css/grid.min.css```:
     This file contains the grid structure for the framework.
