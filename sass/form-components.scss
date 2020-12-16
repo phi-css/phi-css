@@ -1,0 +1,50 @@
+@import 'variables';
+
+// form components
+form {
+  width: 100%;
+}
+
+.form-input {
+  margin-bottom: $remMulPhi;
+}
+
+label {
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], textarea, select {
+  width: 100%;
+  border: 0.05rem solid $grey;
+  padding: $remDivPhi 1rem;
+  font-size: 1rem;
+  line-height: $phi;
+  font-weight: 300;
+  background-color: inherit;
+  color: inherit;
+  caret-color: $accent;
+
+  &:focus {
+    transition: $transition;
+    border-radius: 0;
+    outline: none;
+    border-color: $accent;
+  }
+}
+
+.form-checkbox, .form-radio {
+  display: inline-flex;
+  align-items: self-start;
+  line-height: 0;
+
+  & > label {
+    padding: 0 $remMulPhi 0 $remDivPhi;
+  }
+
+  & > input {
+    margin-top: 0.4rem;
+  }
+}
