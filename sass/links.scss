@@ -1,0 +1,63 @@
+@import 'variables';
+
+a.link {
+  &:hover {
+    transition: $transition;
+  }
+}
+
+a.link.link-primary {
+  color: $accent;
+
+  &:hover {
+    color: $accentShade;
+  }
+}
+
+a.link.link-secondary {
+  color: $accentShade;
+
+  &:hover {
+    color: $accent;
+  }
+}
+
+a.link.link-info {
+  color: $info;
+
+  &:hover {
+    color: $infoShade;
+  }
+}
+
+a.link.link-success {
+  color: $success;
+
+  &:hover {
+    color: $successShade;
+  }
+}
+
+a.link.link-warning {
+  color: $warning;
+
+  &:hover {
+    color: $warningShade;
+  }
+}
+
+a.link.link-error {
+  color: $error;
+
+  &:hover {
+    color: $errorShade;
+  }
+}
+
+a.link.link-grey {
+  color: $grey;
+
+  &:hover {
+    color: $greyShade;
+  }
+}
